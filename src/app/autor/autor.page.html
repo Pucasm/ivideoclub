@@ -1,0 +1,71 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+  <ion-buttons slot="end">
+    <ion-back-button defaultHref="home"></ion-back-button>
+  </ion-buttons>
+  
+    <ion-title>autor</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Hola</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <div id="container" class="ion-text-center" >
+
+  <ion-card class="ion-align-items-center">
+    <ion-card-header>
+      <ion-card-title>Información</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p> Aplicación desarrollada por David Puc.</p>
+     <p> Puedes conocer más sobre mi en los siguientes enlaces:</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="ion-align-items-center">
+    <ion-card-header>
+      <ion-card-title>Mi curriculum vitae</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button [routerLink]="['/curriculum']">Mi curriculum vitae</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="ion-align-items-center">
+    <ion-card-header>
+      <ion-card-title>Enviame un e-Mail</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Correo: <a target="" rel="https://mail.google.com/mail/u/0/#inbox" href="https://mail.google.com/mail/u/0/#inbox">david.omar1124@gmail.com</a></p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="ion-align-items-center">
+    <ion-card-header>
+      <ion-card-title>Sigueme en Twitter</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Twitter: <a target="" rel="https://twitter.com/?lang=es" href="https://twitter.com/?lang=es">@pucasm</a></p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="ion-align-items-center">
+    <ion-card-header>
+      <ion-card-title>Mi número telefonico</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button (click)='(9983091661)'> Contactame: 9983091661 </ion-button>
+    </ion-card-content>
+  </ion-card>
+  
+
+  <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+
+</div>
+
+</ion-content>

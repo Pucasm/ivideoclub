@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Bienvenido</ion-card-subtitle>
+        <ion-card-title>iVideoclub</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+      <p> iVideoClub es una aplicación creada con IONIC. </p>
+       <p> Para acceder a la gestión del videoclub pulsa el siguiente botón:</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-button [routerLink]="['/videoclub']">Acceso a videoclub</ion-button>
+
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Información sobre el autor:</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+      <p> Esto es una aplicación desarrollada por: </p>
+       <p> David Omar Puc Chan </p>
+      </ion-card-content>
+    </ion-card>
+    <ion-button [routerLink]="['/autor']">Consultar información</ion-button>
+
+    
+
+
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div>
+  
+</ion-content>
